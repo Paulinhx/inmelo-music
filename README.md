@@ -2,7 +2,7 @@
 
 Student React Module Project, made from Figma and Locofy plugin to React 18 framework using Typescript and CSS Modules
 
-TODO// Finish README.md, beautify codes, work on V.2  > add a NFT shop and bandcamp API, embed players
+//TODO Finish README.md, beautify codes, work on V.2  > add a NFT shop and bandcamp API, embed players
 
 ## Preview
 
