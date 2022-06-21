@@ -1,0 +1,257 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.heroImageSimur2Div {
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  right: 0;
+  left: 0;
+  height: 384.1px;
+}
+.photoHeroIcon {
+  position: absolute;
+  top: 1.34px;
+  left: calc(50% - 764.5px - 0px);
+  width: 1529px;
+  height: 780.5px;
+  object-fit: cover;
+}
+.span {
+  color: #8a53ff;
+}
+.missionIsTo {
+  color: #434343;
+}
+.heroTitleH1 {
+  margin: 0;
+  font-weight: unset;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 68.02px;
+  font-family: inherit;
+  display: inline-block;
+  width: 787.56px;
+  flex-shrink: 0;
+  text-shadow: 0 3.9977915287017822px 4px rgba(0, 0, 0, 0.25);
+}
+.heroContentContainer782 {
+  flex: 1;
+  width: 793.56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 88.6%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.4%;
+  left: 0;
+  border-radius: 4.1px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.shopOurProducts {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.shopOurProductsHere {
+  text-decoration: none;
+  position: absolute;
+  height: 75.44%;
+  width: 86.56%;
+  top: 24.56%;
+  right: 6.93%;
+  bottom: 0;
+  left: 6.51%;
+  font-size: 16.28px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.component1Button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 8.02px;
+  left: 0;
+  width: 214.88px;
+  height: 53.02px;
+}
+.component1Button:hover,
+.featuredListen:hover {
+  animation: 1s ease 0s infinite normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.rectangleDiv {
+  border-radius: 40px;
+  background-color: rgba(97, 74, 211, 0.3);
+  backdrop-filter: blur(4px);
+}
+.div,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 177px;
+  height: 55px;
+}
+.listenNowDiv {
+  position: absolute;
+  height: calc(100% - 24.06px);
+  width: calc(100% - 81.28px);
+  top: 10px;
+  right: 12.28px;
+  bottom: 14.06px;
+  left: 69px;
+  font-size: 16px;
+  line-height: 35.98px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #f8f5fd;
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ellipseIcon,
+.polygonIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 33.92px;
+}
+.polygonIcon {
+  top: 10.59px;
+  left: 12.87px;
+  border-radius: 2px;
+  width: 12.41px;
+  height: 13.16px;
+}
+.featuredListen,
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  width: 36px;
+  height: 33.92px;
+}
+.featuredListen {
+  top: 0;
+  left: 231.59px;
+  width: 177px;
+  height: 55px;
+}
+.callToActionsRow {
+  position: relative;
+  width: 408.59px;
+  height: 61.04px;
+  flex-shrink: 0;
+}
+.heroContentContainer {
+  align-self: stretch;
+  height: 599.67px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 40.689945220947266px 122.06982421875px 40.689945220947266px
+    142.414794921875px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}
+.heroContentContainer > * + * {
+  margin-top: 34.59px;
+}
+.heroContainerDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 78.13%
+  );
+  width: 934px;
+  height: 623px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heroSection {
+  position: relative;
+  width: 1529px;
+  height: 623px;
+  flex-shrink: 0;
+  mix-blend-mode: multiply;
+  text-align: left;
+  font-size: 54.41px;
+  color: #7236da;
+  font-family: Bigshot One;
+}
+@media screen and (max-width: 1200px) {
+  .heroContentContainer {
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heroTitleH1 {
+    font-size: 70px;
+    line-height: 76px;
+  }
+  .heroContentContainer {
+    width: 680px;
+    padding-left: 40px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .heroTitleH1 {
+    font-size: 62px;
+    line-height: 68px;
+  }
+  .heroContentContainer {
+    width: 428px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,188 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.discordSvgrepoComCopy1 {
+  position: relative;
+  width: 100px;
+  height: 106px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.groupIcon,
+.groupIcon1,
+.vectorIcon {
+  position: absolute;
+  height: 38.72%;
+  width: 99.97%;
+  top: 61.28%;
+  right: 0;
+  bottom: 0;
+  left: 0.03%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon1,
+.vectorIcon {
+  height: 60.45%;
+  width: 55.91%;
+  top: 0;
+  right: 44.09%;
+  bottom: 39.55%;
+  left: 0;
+}
+.groupIcon1 {
+  height: 59.89%;
+  width: 44.06%;
+  right: 0.04%;
+  bottom: 40.11%;
+  left: 55.91%;
+}
+.groupA {
+  text-decoration: none;
+  position: relative;
+  width: 150px;
+  height: 76px;
+  flex-shrink: 0;
+  opacity: 1;
+}
+.facebookSvgrepoCom1.animate,
+.groupA.animate,
+.mixcloudSvgrepoCom1A.animate {
+  animation: 1s ease 0s 1 normal forwards wobble-hor-bottom;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 59.03%;
+  width: 100%;
+  top: 20.48%;
+  right: 0;
+  bottom: 20.49%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.mixcloudSvgrepoCom1A {
+  text-decoration: none;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 1;
+}
+.instagramLogoSvgrepoCom1Icon {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.groupIcon2 {
+  position: absolute;
+  height: 23.91%;
+  width: 34.78%;
+  top: 0;
+  right: 19.57%;
+  bottom: 76.09%;
+  left: 45.65%;
+}
+.groupIcon2,
+.groupIcon3,
+.vectorIcon2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+.groupIcon3 {
+  position: absolute;
+  height: 6.52%;
+  width: 6.52%;
+  top: 6.52%;
+  right: 54.35%;
+  bottom: 86.96%;
+  left: 39.13%;
+}
+.vectorIcon2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.groupA1,
+.groupDiv,
+.vectorIcon2 {
+  position: absolute;
+  bottom: 0;
+}
+.groupA1 {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.groupDiv {
+  height: 86.96%;
+  width: 52.17%;
+  top: 13.04%;
+  right: 28.26%;
+  left: 19.57%;
+}
+.facebookSvgrepoCom1,
+.nftLogoMain {
+  position: relative;
+  width: 90px;
+  flex-shrink: 0;
+}
+.facebookSvgrepoCom1 {
+  text-decoration: none;
+  height: 90px;
+  overflow: hidden;
+  opacity: 1;
+}
+.nftLogoMain {
+  height: 100px;
+}
+.linksSocialsDiv {
+  width: 1496px;
+  height: 122px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.linksSocialsDiv > * + * {
+  margin-left: 102px;
+}
+.linksSocialsSection {
+  align-self: stretch;
+  height: 223px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,304 @@
+@keyframes shake-horizontal {
+  0%,
+  to {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.discoverMusicWithUs,
+.ourArtistsH2 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.discoverMusicWithUs {
+  cursor: pointer;
+  line-height: 40px;
+  height: 66px;
+  flex-shrink: 0;
+}
+.ourArtistsH2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: Inter;
+  color: #7236da;
+}
+.discoverMusicHeader {
+  align-self: stretch;
+  height: 140px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discoverMusicHeader > * + * {
+  margin-top: 8px;
+}
+.eduardo1Icon {
+  position: relative;
+  border-radius: 4px;
+  width: 276px;
+  height: 323px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.discoverH4,
+.eduardoHopperH3 {
+  margin: 0;
+  font-weight: unset;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.eduardoHopperH3 {
+  font-size: inherit;
+  line-height: 36px;
+  font-family: inherit;
+}
+.discoverH4 {
+  font-size: 16px;
+  font-family: Inter;
+  color: #7236da;
+  height: 14.95px;
+  flex-shrink: 0;
+}
+.discoverH4:hover {
+  animation: 2s ease 0s 1 normal none shake-horizontal;
+  opacity: 1;
+}
+.cardTitleDiv,
+.eduardoCard {
+  display: flex;
+  flex-direction: column;
+}
+.cardTitleDiv {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eduardoCard {
+  text-decoration: none;
+  flex: 1;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+  color: inherit;
+}
+.eduardoCard > * + * {
+  margin-top: 10px;
+}
+.clapoband2Icon {
+  position: relative;
+  border-radius: 4px;
+  width: 276px;
+  height: 323px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cardTitleDiv1,
+.clapophonicCard {
+  display: flex;
+  flex-direction: column;
+}
+.cardTitleDiv1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clapophonicCard {
+  text-decoration: none;
+  flex: 1;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+  color: inherit;
+}
+.clapophonicCard > * + * {
+  margin-top: 10px;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mathieu2Icon {
+  position: relative;
+  border-radius: 4px;
+  width: 276px;
+  height: 323px;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.mathieuScheuberTrio {
+  margin: 0;
+  font-weight: unset;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-family: inherit;
+  display: inline-block;
+  height: 36px;
+  flex-shrink: 0;
+}
+.mathieuCard {
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+  color: inherit;
+}
+.mathieuCard > * + * {
+  margin-top: 10px;
+}
+.ketepika1Icon {
+  position: relative;
+  border-radius: 4px;
+  width: 272.5px;
+  height: 323px;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.ketepikaCard {
+  text-decoration: none;
+  flex: 1;
+  height: 407.95px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25% !important;
+  color: inherit;
+}
+.ketepikaCard > * + * {
+  margin-top: 10px;
+}
+.artistCardsRow,
+.discoverSection {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  color: #434343;
+  font-family: Bigshot One;
+}
+.artistCardsRow {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 24px;
+}
+.discoverSection {
+  background-color: #fff;
+  height: 682px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 24px 119px 70px;
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 60px;
+}
+.discoverSection > * + * {
+  margin-top: 48px;
+}
+@media screen and (max-width: 1200px) {
+  .frameDiv {
+    width: 100%;
+  }
+  .discoverSection {
+    padding: 40px 80px 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .eduardoCard {
+    padding: 8px 16px 30px 0;
+    box-sizing: border-box;
+    width: 50% !important;
+  }
+  .clapophonicCard,
+  .ketepikaCard,
+  .mathieuCard {
+    padding: 8px 0 30px 16px;
+    box-sizing: border-box;
+    width: 50% !important;
+  }
+  .ketepikaCard,
+  .mathieuCard {
+    padding: 0 16px 30px 0;
+  }
+  .ketepikaCard {
+    padding: 0 0 30px 16px;
+  }
+  .artistCardsRow {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .discoverSection {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 550px) {
+  .discoverMusicWithUs {
+    font-size: 36px;
+  }
+  .clapophonicCard,
+  .eduardoCard {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+  .frameDiv {
+    flex-direction: column;
+  }
+  .ketepikaCard,
+  .mathieuCard {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+  .discoverSection {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}

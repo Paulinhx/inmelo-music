@@ -1,0 +1,294 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.blurIcon {
+  height: 124.04%;
+  width: 45.01%;
+  top: -1.38%;
+  right: 4.04%;
+  bottom: -22.66%;
+  left: 50.95%;
+}
+.blurIcon,
+.inmelogoSvgIcon,
+.newsletterBackgroungIcon {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+}
+.newsletterBackgroungIcon {
+  height: 99.97%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0.03%;
+  left: 0;
+  object-fit: cover;
+}
+.inmelogoSvgIcon {
+  height: 8.37%;
+  width: 4.84%;
+  top: 68.93%;
+  right: 29.63%;
+  bottom: 22.69%;
+  left: 65.53%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.formTitleH1,
+.formTitleSubtext {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.formTitleSubtext {
+  font-weight: 700;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.formTitleH1 {
+  font-weight: unset;
+  font-size: 60px;
+  line-height: 41.06px;
+  font-family: Bigshot One;
+  color: #4e4e4e;
+}
+.formHeaderDiv {
+  width: 682.35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formHeaderDiv > * + * {
+  margin-top: 15.4px;
+}
+.getOurMonthlyNewsletterFea,
+.willSendYouMonthlyUpdates {
+  align-self: stretch;
+  position: relative;
+  color: #434343;
+  text-align: left;
+  display: inline-block;
+}
+.getOurMonthlyNewsletterFea {
+  margin: 0;
+  font-weight: unset;
+  font-size: 22.45px;
+  line-height: 32.74px;
+  font-family: Bigshot One;
+}
+.willSendYouMonthlyUpdates {
+  font-size: 13.1px;
+  letter-spacing: -0.02em;
+  line-height: 18.71px;
+  font-weight: 300;
+  font-family: Inter;
+}
+.formTextDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formTextDiv > * + * {
+  margin-top: 6.16px;
+}
+.emailAddressTextField {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.rectangleDiv {
+  position: absolute;
+  bottom: 0.38px;
+  left: calc(50% - 66.5px - -1.48px);
+  border-radius: 40px;
+  background-color: rgba(97, 74, 211, 0.3);
+  backdrop-filter: blur(4px);
+  width: 133px;
+  height: 47px;
+}
+.rectangleIcon {
+  position: absolute;
+  height: 99.67%;
+  top: 0.33%;
+  bottom: 0;
+  left: calc(50% - 114.01px - 0px);
+  border-radius: 4.11px;
+  max-height: 100%;
+  width: 228.02px;
+}
+.subscribeDiv {
+  position: absolute;
+  height: 35.88%;
+  top: 25.69%;
+  bottom: 38.43%;
+  left: calc(50% - 53.5px - -0.48px);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 107px;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 228.02px;
+  height: 47.38px;
+  flex-shrink: 0;
+}
+.formSubmitButton:hover {
+  animation: 2s ease 0s infinite normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.describeMoreTextarea,
+.formFieldsDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.describeMoreTextarea {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.formFieldsDiv {
+  padding: 0 0 9px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.formFieldsDiv > * + * {
+  margin-top: 10.27px;
+}
+.form {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 24.64px rgba(0, 0, 0, 0.03);
+  width: 682.35px;
+  height: 379.8px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 28.743249893188477px 30.796337127685547px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.form > * + * {
+  margin-top: 17.45px;
+}
+.newsletterFormSection {
+  position: relative !important;
+  top: calc(50% - 272.53px - 2.47px);
+  left: auto !important;
+  display: flex;
+  flex-direction: column;
+  padding: 20.53089141845703px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  color: #7236da;
+  font-family: Inter;
+}
+.newsletterFormSection > * + * {
+  margin-top: 30.8px;
+}
+.inmeloMusicP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.independentMusicLabel {
+  margin: 0;
+}
+.inmeloMusicNeuchtelSwitze {
+  position: absolute;
+  height: 7.54%;
+  width: 13.48%;
+  top: 70.95%;
+  right: 35.25%;
+  bottom: 21.52%;
+  left: 51.26%;
+  line-height: 15px;
+  display: inline-block;
+}
+.newsletterDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.newsletterSection {
+  align-self: stretch;
+  position: relative;
+  height: 824px;
+  flex-shrink: 0;
+  opacity: 0.8;
+  text-align: right;
+  font-size: 13px;
+  color: rgba(78, 78, 78, 0.8);
+  font-family: Inter;
+}
+@media screen and (max-width: 768px) {
+  .newsletterFormSection {
+    padding: 24px 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 550px) {
+  .newsletterBackgroungIcon {
+    height: 950px;
+  }
+  .newsletterFormSection {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+  .newsletterDiv {
+    height: 950px;
+  }
+}

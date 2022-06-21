@@ -1,0 +1,69 @@
+.footerImgIcon {
+  position: absolute;
+  bottom: 88px;
+  left: calc(50% - 766px - -1.5px);
+  width: 1532px;
+  height: 279px;
+  object-fit: cover;
+}
+.inmeloMusicP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.independentMusicLabel {
+  margin: 0;
+}
+.inmeloMusicNeuchtelSwitze {
+  position: absolute;
+  right: 97.81px;
+  bottom: 194px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 203.19px;
+  height: 52px;
+}
+.copyrightPaulinhx2022Al {
+  text-decoration: none;
+  position: absolute;
+  right: 93px;
+  bottom: 143px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fdfdfd;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 458px;
+  height: 39px;
+}
+.copyrightPaulinhx2022Al:hover {
+  color: #a418ba;
+}
+.aboutUs {
+  position: absolute;
+  top: -66px;
+  left: calc(50% - 184.5px - -585px);
+  font-size: 60px;
+  line-height: 160%;
+  display: inline-block;
+  font-family: Space Grotesk;
+  color: #f2f2f2;
+  text-align: left;
+  width: 369px;
+  height: 93px;
+  cursor: pointer;
+}
+.footer {
+  position: relative;
+  width: 1527px;
+  height: 277px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}

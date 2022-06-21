@@ -1,0 +1,342 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.productsH1Div {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  height: 80px;
+  flex-shrink: 0;
+}
+.imgTshirtinmeloIcon,
+.productCardIcon {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.productCardIcon {
+  height: 66.32%;
+  width: 97.67%;
+  top: 17.69%;
+  right: 1.16%;
+  bottom: 15.99%;
+  left: 1.16%;
+  border-radius: 10px;
+}
+.imgTshirtinmeloIcon {
+  height: 58.33%;
+  width: 83.02%;
+  top: 18.59%;
+  right: 8.49%;
+  bottom: 23.08%;
+  left: 8.49%;
+}
+.shapeDiv {
+  position: absolute;
+  height: 25.64%;
+  width: 103.77%;
+  top: -2.56%;
+  right: -1.89%;
+  bottom: 76.92%;
+  left: -1.89%;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent);
+  filter: blur(20px);
+  backdrop-filter: blur(32px);
+}
+.streetWearB {
+  position: absolute;
+  height: 7.69%;
+  width: 66.98%;
+  top: 6.41%;
+  right: 23.58%;
+  bottom: 85.9%;
+  left: 9.43%;
+  letter-spacing: -0.04em;
+  display: inline-block;
+}
+.handprintedBamboo {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bUY,
+.handprintedBambooTee {
+  display: inline-block;
+  font-family: Inter;
+}
+.handprintedBambooTee {
+  position: absolute;
+  height: 11.86%;
+  width: 60.85%;
+  top: 85.26%;
+  right: 32.78%;
+  bottom: 2.88%;
+  left: 6.37%;
+  font-size: 12px;
+  line-height: 17.65px;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.bUY {
+  position: relative;
+  font-size: 11.24px;
+  line-height: 160%;
+  color: #6133c5;
+  text-align: left;
+}
+.buttonBuy {
+  cursor: pointer;
+  border: 0.6px solid #0f0e0e;
+  padding: 6.242125988006592px 19.974803924560547px;
+  background-color: transparent;
+  position: absolute;
+  height: 8.01%;
+  width: 36.79%;
+  top: 86.54%;
+  right: 7.55%;
+  bottom: 5.45%;
+  left: 55.66%;
+  border-radius: 31.21px;
+  background: linear-gradient(
+    74.57deg,
+    #101111,
+    #eaeaea 47.84%,
+    #f4f6f6 94.27%
+  );
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonBuy:hover {
+  animation: 2s ease 0s 1 normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.cardsVertical {
+  position: relative;
+  border-radius: 12px;
+  background-color: #6133c5;
+  width: 230px;
+  height: 343px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.productsRecordCardIcon {
+  position: absolute;
+  height: 66.82%;
+  width: 98.41%;
+  top: 18.09%;
+  right: 0.8%;
+  bottom: 15.09%;
+  left: 0.79%;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.musicB {
+  position: absolute;
+  height: 7.69%;
+  width: 73.58%;
+  top: 6.41%;
+  right: 16.98%;
+  bottom: 85.9%;
+  left: 9.43%;
+  letter-spacing: -0.04em;
+  display: inline-block;
+}
+.switzerlandP {
+  margin: 0;
+}
+.clapophonicSwitzerlandTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.clapophonicSwitzerlandDiv {
+  position: absolute;
+  height: 11.54%;
+  width: 40.09%;
+  top: 84.62%;
+  right: 52.36%;
+  bottom: 3.85%;
+  left: 7.55%;
+  font-size: 12px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-family: Inter;
+  display: flex;
+  align-items: flex-end;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+.bcBandcampLogoSvgrepoCom1Icon {
+  position: absolute;
+  height: 16.03%;
+  width: 23.58%;
+  top: 82.37%;
+  right: 9.91%;
+  bottom: 1.6%;
+  left: 66.51%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.productsRecordCardIcon1 {
+  position: absolute;
+  height: 65.82%;
+  width: 96.92%;
+  top: 18.34%;
+  right: 1.54%;
+  bottom: 15.84%;
+  left: 1.54%;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.eduardoHopperBrazil {
+  position: absolute;
+  height: 11.54%;
+  width: 57.08%;
+  top: 84.29%;
+  right: 35.14%;
+  bottom: 4.17%;
+  left: 7.78%;
+  font-size: 12px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-family: Inter;
+  display: flex;
+  align-items: flex-end;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+.groupIcon {
+  position: absolute;
+  height: 56.04%;
+  width: 100%;
+  top: 21.98%;
+  right: 0;
+  bottom: 21.98%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.a3197792969101,
+.bcBandcampLogoSvgrepoCom1 {
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+}
+.bcBandcampLogoSvgrepoCom1 {
+  height: 16.03%;
+  width: 23.58%;
+  top: 82.37%;
+  right: 9.91%;
+  bottom: 1.6%;
+  left: 66.51%;
+  overflow: hidden;
+}
+.a3197792969101 {
+  height: 62.82%;
+  width: 92.45%;
+  top: 18.27%;
+  right: 3.54%;
+  bottom: 18.91%;
+  left: 4.01%;
+  border-radius: 10px;
+  background-image: url(../../public/a3197792969-10-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.mathieuScheuberTrioSwitzerl {
+  position: absolute;
+  height: 10.26%;
+  width: 123.58%;
+  top: 85.26%;
+  right: -29.95%;
+  bottom: 4.49%;
+  left: 6.37%;
+  font-size: 12px;
+  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-family: Inter;
+  display: flex;
+  align-items: flex-end;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+.bcBandcampLogoSvgrepoCom11 {
+  text-decoration: none;
+  position: absolute;
+  height: 16.03%;
+  width: 23.58%;
+  top: 82.37%;
+  right: 9.91%;
+  bottom: 1.6%;
+  left: 66.51%;
+  overflow: hidden;
+  opacity: 1;
+}
+.bcBandcampLogoSvgrepoCom11.animate {
+  animation: 1s ease 0s 1 normal forwards wobble-hor-bottom;
+}
+.productsDiv {
+  width: 1238px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 0 14px 12px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.productsDiv > * + * {
+  margin-left: 84px;
+}
+.highlightsSection,
+.productsArticle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.productsArticle {
+  width: 1161px;
+  height: 360px;
+  flex-shrink: 0;
+  flex-direction: row;
+  font-size: 19px;
+  color: #fff;
+  font-family: Space Grotesk;
+}
+.highlightsSection {
+  width: 1143px;
+  flex-direction: column;
+  font-size: 60px;
+  color: #434343;
+  font-family: Bigshot One;
+}
+.highlightsSection > * + * {
+  margin-top: 20px;
+}

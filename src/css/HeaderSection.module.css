@@ -1,0 +1,122 @@
+.headerLogoDiv,
+.inmelogoSvgIcon {
+  position: absolute;
+  top: 0;
+  left: 106px;
+  width: 180px;
+  height: 173px;
+  overflow: hidden;
+}
+.headerLogoDiv {
+  left: 0;
+  width: 351px;
+  height: 170px;
+  cursor: pointer;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 101px;
+  flex-shrink: 0;
+  cursor: default;
+}
+.artists:hover,
+.label:hover,
+.productsA1:hover {
+  color: #7236da;
+}
+.artists {
+  width: 121px;
+  cursor: pointer;
+}
+.artists,
+.productsA,
+.productsA1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.productsA {
+  width: 157px;
+  cursor: pointer;
+}
+.productsA1 {
+  width: 133px;
+}
+.navBar1Div {
+  width: 704px;
+  height: 29px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navBar1Div > * + * {
+  margin-left: 30.89px;
+}
+.headerNavbarSection {
+  position: absolute;
+  top: 8.21px;
+  left: -1062.01px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 26px;
+  color: #434343;
+  font-family: Inter;
+}
+.headerMenuNavbar {
+  position: absolute;
+  top: calc(50% - 18.53px - 6.68px);
+  left: 1651.01px;
+  width: 437.08px;
+  height: 37.07px;
+}
+.navBarDiv {
+  position: absolute;
+  width: calc(100% - 36px);
+  top: 0;
+  right: 36px;
+  left: 0;
+  height: 170px;
+}
+.headerSection {
+  position: relative;
+  background-color: #fff;
+  width: 1529px;
+  height: 170px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1200px) {
+  .headerSection {
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerNavbarSection {
+    display: none;
+  }
+  .headerSection {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 550px) {
+  .headerSection {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}

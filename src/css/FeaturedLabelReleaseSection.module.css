@@ -1,0 +1,229 @@
+@keyframes wobble-hor-bottom {
+  0%,
+  to {
+    transform: translateX(0);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.featuredImageContainer {
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.featuredLabelCategory {
+  margin: 0;
+  font-weight: 700;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: inherit;
+  color: #7236da;
+  display: inline-block;
+}
+.iMMLP002S {
+  font-size: 39px;
+}
+.iMMLP002SSealedGatefold {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.featuredLabelTitle {
+  margin: 0;
+  font-weight: unset;
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+  font-family: Bigshot One;
+  display: inline-block;
+  height: 116px;
+  flex-shrink: 0;
+  font-size: 32px;
+}
+.viewFullRelease {
+  font-weight: 500;
+}
+.viewFullReleasePage {
+  margin: 0;
+  color: #7236da;
+  font-family: Inter;
+}
+.featuredLabelDescription {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 33px;
+  display: inline-block;
+  color: inherit;
+  font-family: Roboto;
+}
+.featuredLabelCopywriting {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 25px;
+  color: #434343;
+  font-family: Inter;
+}
+.featuredLabelCopywriting > * + * {
+  margin-top: 8px;
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 40px;
+  background-color: rgba(97, 74, 211, 0.3);
+  backdrop-filter: blur(4px);
+}
+.div,
+.listenNowDiv {
+  position: absolute;
+  height: 166.67%;
+  width: 123.11%;
+  top: -38.89%;
+  right: -22.77%;
+  bottom: -27.78%;
+  left: -0.35%;
+}
+.listenNowDiv {
+  height: 100%;
+  width: 66.61%;
+  top: -5.56%;
+  right: -13.91%;
+  bottom: 5.56%;
+  left: 47.3%;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #7236da;
+  text-align: left;
+  display: inline-block;
+}
+.ellipseIcon,
+.polygonIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.polygonIcon {
+  height: 38.7%;
+  width: 34.99%;
+  top: 31.09%;
+  right: 29.41%;
+  bottom: 30.21%;
+  left: 35.6%;
+  border-radius: 2px;
+}
+.featuredListen,
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.groupButton {
+  position: absolute;
+  height: 100%;
+  width: 25.04%;
+  top: -5.56%;
+  right: 63.14%;
+  bottom: 5.56%;
+  left: 11.82%;
+}
+.featuredListen {
+  position: relative;
+  width: 143.77px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.featuredListen:hover {
+  animation: 2s ease 0s infinite normal none wobble-hor-bottom;
+  opacity: 1;
+}
+.featuredLabelBlurb {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuredLabelBlurb > * + * {
+  margin-top: 24px;
+}
+.featuredLabelReleaseSection {
+  align-self: stretch;
+  background-color: #fff;
+  height: 660px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 107px 140px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1200px) {
+  .featuredImageContainer {
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .featuredLabelReleaseSection {
+    padding: 80px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .featuredImageContainer {
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .featuredLabelBlurb {
+    padding: 24px 0;
+    box-sizing: border-box;
+  }
+  .featuredLabelReleaseSection {
+    flex-direction: column;
+    padding: 60px 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 550px) {
+  .featuredLabelTitle {
+    font-size: 36px;
+  }
+}

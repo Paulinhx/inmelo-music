@@ -1,0 +1,64 @@
+.shapeIcon {
+  position: absolute;
+  height: 100%;
+  width: 135.45%;
+  top: 0;
+  right: -35.45%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.weAndorOurLicensorsAreTh {
+  position: absolute;
+  height: 49.39%;
+  width: 89.24%;
+  top: 40.88%;
+  right: 5.33%;
+  bottom: 9.73%;
+  left: 5.43%;
+  line-height: 26px;
+  display: inline-block;
+}
+.legalMentionB {
+  position: absolute;
+  height: 10.98%;
+  width: 33.01%;
+  top: 13.84%;
+  right: 33.44%;
+  bottom: 75.19%;
+  left: 33.55%;
+  font-size: 25px;
+  letter-spacing: -0.04em;
+  display: inline-block;
+  font-family: Space Grotesk;
+}
+.inner60Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.3;
+}
+.legalMentionDiv {
+  position: relative;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 254, 254, 0.2),
+    rgba(255, 251, 251, 0.2)
+  );
+  width: 1529px;
+  height: 174px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: #352d36;
+  font-family: Inter;
+}

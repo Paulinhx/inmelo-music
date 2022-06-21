@@ -1,0 +1,39 @@
+.clincherTitleH3 {
+  margin: 0;
+  font-weight: unset;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-family: inherit;
+  display: inline-block;
+}
+.itiberZwarg {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.liveOnSaturday {
+  margin: 0;
+}
+.clincherTextDiv {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto;
+  display: inline-block;
+}
+.clincherParagraphDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 32px;
+  color: #434343;
+  font-family: Bigshot One;
+}
+.clincherParagraphDiv > * + * {
+  margin-top: 10px;
+}

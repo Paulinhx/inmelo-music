@@ -1,0 +1,118 @@
+.calloutImagesIcon {
+  max-height: 100%;
+  width: 455px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.vectorIcon {
+  position: relative;
+  width: 34.62px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.oneOfTheBestAlbumWeveDo {
+  margin: 0;
+  font-weight: unset;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 47px;
+  font-family: inherit;
+  display: inline-block;
+}
+.calloutTitleDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calloutTitleDiv > * + * {
+  margin-left: 17px;
+}
+.weBelieveIn {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.ourSoulbrotherEduardo {
+  margin: 0;
+}
+.calloutTextDiv {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto;
+  display: inline-block;
+  width: 523px;
+}
+.buttonIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4.11px;
+  width: 215px;
+  height: 47px;
+}
+.shopOurProductsHere {
+  position: absolute;
+  top: 12.46px;
+  left: 12px;
+  font-size: 16.28px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.viewFullGalleryButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 215px;
+  height: 52.46px;
+  flex-shrink: 0;
+}
+.calloutCopywritingArticle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 0 36px 34px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 42px;
+  color: #434343;
+  font-family: Bigshot One;
+}
+.calloutCopywritingArticle > * + * {
+  margin-top: 30px;
+}
+.calloutShopSection {
+  width: 1183px;
+  height: 536px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .calloutCopywritingArticle {
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+  }
+  .calloutShopSection {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 550px) {
+  .calloutImagesIcon {
+    width: 96% !important;
+  }
+}
