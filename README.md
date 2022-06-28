@@ -4,7 +4,7 @@ Student React Module Project, made from Figma and Locofy plugin to React 18 fram
 
 //TODO Finish README.md, beautify codes, work on V.2  > add a NFT shop and bandcamp API, embed players
 
-## Preview
+## Preview high-fidelity prototype
 
 ### Header with NavBar & Hero Image Section
 
@@ -18,10 +18,12 @@ Student React Module Project, made from Figma and Locofy plugin to React 18 fram
 
 ![inmelo-talents](https://user-images.githubusercontent.com/90310689/174885762-d7a3e76e-3762-4aa9-8de4-518b2f93bcb5.png)
 
-### Blog Section
+### Blog & Product Section
 
 ![Inmelo-the-label](https://user-images.githubusercontent.com/90310689/174886655-af88a107-47ed-4c01-ab39-adf49a6fa552.png)
 
-### Footer Section
+### NFT & Footer Section
 
 ![inmelo-products](https://user-images.githubusercontent.com/90310689/174886671-b806263e-3ee9-4ffd-a805-541734f412f6.png)
+
+## License
