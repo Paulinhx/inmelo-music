@@ -1,4 +1,4 @@
-# inmelo Music Label
+# ![inmelo-logo](https://user-images.githubusercontent.com/90310689/176145144-573889a0-4b9a-4932-8c8d-a54cf2e01575.png)  inmelo Music Label
 
 ## Description of the project
 
@@ -8,23 +8,23 @@ As Musician, I wanna contribute to the diverse industry by creating dynamic webs
 
 ## Preview high-fidelity prototype
 
-### Header with NavBar & Hero Image Section
+#### Header with NavBar & Hero Image Section
 
 ![inemelo-header](https://user-images.githubusercontent.com/90310689/174885026-f51b0ea1-4a70-4742-8e06-d22937663ba9.png)
 
-### Newsletter Section
+#### Newsletter Section
 
 ![inmelo-newsletter](https://user-images.githubusercontent.com/90310689/174885360-b29bcd13-e34d-4f50-b0f1-f0016c792fd5.png)
 
-### Label Section
+#### Label Section
 
 ![inmelo-talents](https://user-images.githubusercontent.com/90310689/174885762-d7a3e76e-3762-4aa9-8de4-518b2f93bcb5.png)
 
-### Blog & Product Section
+#### Blog & Product Section
 
 ![Inmelo-the-label](https://user-images.githubusercontent.com/90310689/174886655-af88a107-47ed-4c01-ab39-adf49a6fa552.png)
 
-### NFT & Footer Section
+#### NFT & Footer Section
 
 ![inmelo-products](https://user-images.githubusercontent.com/90310689/174886671-b806263e-3ee9-4ffd-a805-541734f412f6.png)
 
@@ -54,11 +54,10 @@ Thanks to all the team for them help!
 
 ## Credits
 
- <p><a> &copy; Copyright 2022,Copyright @ Paulinhx, 2022. All Rights Reserved.</a>
+ <p><a> &copy; @ Paulinhx, 2022. All Rights Reserved.</a>
   
  <a> Inmelo Music, Neuchâtel, Switzerland </a>
  <a>Independent music label.</a></p> 
-
 
 
 ## Work In progress
