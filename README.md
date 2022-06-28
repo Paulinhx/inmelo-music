@@ -56,7 +56,7 @@ Thanks to all the team for them help!
 
 ## Credits
 
- <p><a> &copy; @ Paulinhx, 2022. All Rights Reserved.</a>
+ <p><a> &copy; @Paulinhx, 2022. All Rights Reserved.</a>
   
  <a> Inmelo Music, Neuchâtel, Switzerland </a>
  <a>Independent music label.</a></p> 
