@@ -30,7 +30,7 @@ As Musician, I wanna contribute to the diverse industry by creating dynamic webs
 
 ## Tech Stack used for this project
 
-* ![madewithlocofy](https://user-images.githubusercontent.com/90310689/176138917-71c1af67-f6c7-423f-b827-cf12292fcaf4.png)
+ ![madewithlocofy](https://user-images.githubusercontent.com/90310689/176138917-71c1af67-f6c7-423f-b827-cf12292fcaf4.png)
 
 This is a high fidelity design UI prototype inspired by and made with the Locofy plugin demo in Figma. 
 The Locofy instructions template and videos were used to realize this project.
@@ -38,6 +38,8 @@ The Locofy instructions template and videos were used to realize this project.
 Infos here : https://www.locofy.ai/
 
 Thanks to all the team for them help!
+
+#### Other tools
 
 * ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
